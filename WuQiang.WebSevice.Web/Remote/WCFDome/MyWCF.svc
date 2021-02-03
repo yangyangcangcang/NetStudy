@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WuQiang.WebSevice.Web.Remote.WCFDome.MyWCF" CodeBehind="MyWCF.svc.cs" %>

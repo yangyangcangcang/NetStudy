@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="61df3429-ea81-451a-baae-40003fe65ee7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50714/Remote/WCFDome/MyWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyWCF.disco" MetadataType="Disco" ID="fa4489bb-f554-424b-9ef2-17d229315e9b" SourceId="1" SourceUrl="http://localhost:50714/Remote/WCFDome/MyWCF.svc?disco" />
+    <MetadataFile FileName="MyWCF.wsdl" MetadataType="Wsdl" ID="283d68fb-9325-448d-b05a-8057f2353a16" SourceId="1" SourceUrl="http://localhost:50714/Remote/WCFDome/MyWCF.svc?wsdl" />
+    <MetadataFile FileName="MyWCF.xsd" MetadataType="Schema" ID="3a510173-a978-4b05-8234-7648212fd0d0" SourceId="1" SourceUrl="http://localhost:50714/Remote/WCFDome/MyWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyWCF1.xsd" MetadataType="Schema" ID="731dcb12-d165-45bc-8647-0e71ae8b33fa" SourceId="1" SourceUrl="http://localhost:50714/Remote/WCFDome/MyWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyWCF2.xsd" MetadataType="Schema" ID="9c4895bd-a535-4f89-b4c1-6d89916cb276" SourceId="1" SourceUrl="http://localhost:50714/Remote/WCFDome/MyWCF.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
